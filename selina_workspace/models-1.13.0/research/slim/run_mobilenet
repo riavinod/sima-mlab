@@ -1,0 +1,7 @@
+#!/bin/bash
+source activate sean_venv
+conda list
+cd $HOME/selina_temp_workspace/sima-project/models-1.13.0/research/slim
+DATASET_DIR=$HOME/sean_workspace/imagenet-data
+MODEL_DIR=$HOME/selina_temp_workspace/sima-project/mobilenetv1-5_dir/mobilenetv1-5.pb
+python load_mobilenetv1-5_pb_selina.py --alsologtostderr --dataset_dir=${DATASET_DIR} --model_dir=${MODEL_DIR} --dataset_name=imagenet --dataset_split_name=validation --model_name=mobilenet_v1

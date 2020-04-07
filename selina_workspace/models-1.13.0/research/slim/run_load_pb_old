@@ -1,0 +1,10 @@
+#!/bin/bash
+ 
+#source activate sean_venv
+source activate christine_venv
+
+conda list
+cd $HOME/selina_temp_workspace/sima-project/models-1.13.0/research/slim
+DATA_DIR=$HOME/sean_workspace/imagenet-data
+MODEL_DIR=$HOME/selina_temp_workspace/sima-project/resnet50v1-5_dir/resnet50_v1-5.pb
+python an_eval_image_classifier_resnet1-5.py --alsologtostderr --dataset_dir=${DATA_DIR} --dataset_name=imagenet --dataset_split_name=validation --model_dir=${MODEL_DIR} --model_name=resnet_v1_50 --labels_offset=1

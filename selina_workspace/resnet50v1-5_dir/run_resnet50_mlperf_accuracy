@@ -1,0 +1,30 @@
+#!/usr/bin/bash
+
+python -m pip install ck --user
+ck pull repo:ck-env
+source activate sean_venv
+
+pip install tensorflow or pip install tensorflow-gpu
+pip install onnxruntime or pip install onnxruntime-gpu
+
+ pip install pybind11
+sudo apt-get update
+sudo dpkg --configure -a
+
+cd $HOME/selina_temp_workspace/sima-project/inference/loadgen
+CFLAGS="-std=c++14" python setup.py develop --user
+cd $HOME/selina_temp_workspace/sima-project/inference/v0.5/classification_and_detection
+
+
+python setup.py develop --user
+
+
+export MODEL_DIR=$HOME/selina_temp_workspace/sima-project/resnet50v1-5_dir
+export DATA_DIR=$HOME/CK-TOOLS/dataset-imagenet-ilsvrc2012/validation
+
+pip install Cython
+
+pip install opencv-contrib-python
+
+./run_local.sh tf resnet50 gpu --accuracy
+
