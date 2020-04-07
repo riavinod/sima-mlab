@@ -1,3 +1,2 @@
 *.pb filter=lfs diff=lfs merge=lfs -text
-selina_workspace/models-1.13.0/research/slim/ria_tmp/tf_summary/events.out.tfevents.1584593313.ip-10-143-236-237 filter=lfs diff=lfs merge=lfs -text
 *.ip-10-143-236-237 filter=lfs diff=lfs merge=lfs -text
