@@ -1,0 +1,33 @@
+absl-py==0.9.0
+astor==0.8.0
+ck==1.12.3
+Cython==0.29.16
+gast==0.2.2
+google-pasta==0.2.0
+grpcio==1.28.1
+h5py==2.10.0
+Keras-Applications==1.0.8
+Keras-Preprocessing==1.1.0
+Markdown==3.2.1
+mkl-fft==1.0.15
+mkl-random==1.1.0
+mkl-service==2.3.0
+-e git+https://github.com/mlperf/inference.git@12eb9ef39fc6c33b2695f9a9c946d9b2c909d35b#egg=mlperf_inference&subdirectory=v0.5/classification_and_detection
+-e git+https://github.com/mlperf/inference.git@12eb9ef39fc6c33b2695f9a9c946d9b2c909d35b#egg=mlperf_loadgen&subdirectory=loadgen
+numpy==1.18.2
+onnx==1.6.0
+opencv-contrib-python==4.2.0.34
+opencv-python-headless==4.2.0.34
+opt-einsum==3.2.0
+protobuf==3.11.3
+pybind11==2.5.0
+pycocotools==2.0.0
+six==1.14.0
+tensorboard==1.15.0
+tensorflow==1.15.0
+tensorflow-estimator==1.15.1
+termcolor==1.1.0
+typing-extensions==3.7.4.2
+webencodings==0.5.1
+Werkzeug==1.0.1
+wrapt==1.12.1
