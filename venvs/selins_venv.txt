@@ -133,7 +133,7 @@ tensorboard==2.1.1
 tensorboard-plugin-wit==1.6.0.post2
 tensorflow==2.2.0rc1
 tensorflow-estimator==2.2.0rc0
-tensorflow-gpu==2.2.0rc1
+tensorflow-gpu==1.15.2
 termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
