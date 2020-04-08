@@ -1,0 +1,3 @@
+utilization.gpu [%], utilization.memory [%], memory.total [MiB], memory.free [MiB], memory.used [MiB], power.draw [W]
+0 %, 0 %, 16160 MiB, 16160 MiB, 0 MiB, 24.58 W
+0 %, 0 %, 16160 MiB, 16160 MiB, 0 MiB, 25.08 W

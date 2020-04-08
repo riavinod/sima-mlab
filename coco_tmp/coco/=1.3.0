@@ -1,0 +1,28 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/ubuntu/.conda/envs/selina_venv
+
+  added / updated specs:
+    - tensorflow
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2020.1.1   |                0         125 KB
+    certifi-2019.11.28         |           py37_1         156 KB
+    ------------------------------------------------------------
+                                           Total:         282 KB
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  ca-certificates                                  anaconda --> pkgs/main
+  certifi                                          anaconda --> pkgs/main
+  openssl                anaconda::openssl-1.1.1-h7b6447c_0 --> pkgs/main::openssl-1.1.1f-h7b6447c_0
+
+
+Proceed ([y]/n)? 

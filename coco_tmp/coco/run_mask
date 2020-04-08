@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+#wget https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5
+#cd ~/selina_temp_workspace/sima-project/Mask_RCNN/samples/coco/
+cd ~/selina_workspace/Mask_RCNN/samples/coco
+source activate mask
+python3 coco.py evaluate --dataset=$HOME/CK-TOOLS/dataset-coco-2017-val --year=2017 --model=coco --limit=500
