@@ -19,7 +19,7 @@ onnx==1.6.0
 opencv-contrib-python==4.2.0.34
 opencv-python-headless==4.2.0.34
 opt-einsum==3.2.0
-protobuf==3.11.3
+protobuf==3.15.0
 pybind11==2.5.0
 pycocotools==2.0.0
 six==1.14.0
