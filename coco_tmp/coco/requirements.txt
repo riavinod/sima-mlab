@@ -121,7 +121,7 @@ sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
 tb-nightly==2.2.0a20200315
 tensorboard-plugin-wit==1.6.0.post2
-tensorflow==1.13.1
+tensorflow==2.6.4
 tensorflow-estimator==1.13.0
 termcolor==1.1.0
 terminado==0.8.3
