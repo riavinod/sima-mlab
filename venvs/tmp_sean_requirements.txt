@@ -15,7 +15,7 @@ mkl-random==1.1.0
 mkl-service==2.3.0
 -e git+https://github.com/mlperf/inference.git@12eb9ef39fc6c33b2695f9a9c946d9b2c909d35b#egg=mlperf_inference&subdirectory=v0.5/classification_and_detection
 -e git+https://github.com/mlperf/inference.git@12eb9ef39fc6c33b2695f9a9c946d9b2c909d35b#egg=mlperf_loadgen&subdirectory=loadgen
-numpy==1.18.2
+numpy==1.22.0
 onnx==1.6.0
 opencv-contrib-python==4.2.0.34
 opencv-python-headless==4.2.0.34
